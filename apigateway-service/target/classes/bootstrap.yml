@@ -1,0 +1,27 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
+  application:
+    name: apigateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: restaurant-service
+          uri: lb://restaurant-service
+          predicates:
+            - Path=/api/restaurant-service/**
+          filters:
+            - StripPrefix=1
+            - RewritePath=/restaurant-service(?<segment>/?.*), $\{segment}
+    config:
+      enabled: true
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        preferIpAddress: true
+        instanceId: ${spring.application.name}:${server.address}:${server.port}
+        port: ${server.port}
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 1s
