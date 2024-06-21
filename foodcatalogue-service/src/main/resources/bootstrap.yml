@@ -1,9 +1,10 @@
 spring:
-  application:
-    name: restaurant-service
   cloud:
     config:
       enabled: true
+  application:
+    name: foodcatalogue-service
+
     consul:
       host: localhost
       port: 8500
@@ -11,7 +12,7 @@ spring:
         preferIpAddress: true
         instanceId: ${spring.application.name}:${server.address}:${server.port}
         port: ${server.port}
-        healthCheckPath: /restaurant/actuator/health
+        healthCheckPath: /foodCatalogue/actuator/health
         healthCheckInterval: 1s
   main:
     allow-bean-definition-overriding: true

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cfcd49-06f8-4b96-a31c-906f0a042152" name="Changes" comment="" />
+    <list default="true" id="00cfcd49-06f8-4b96-a31c-906f0a042152" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,35 +42,44 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2fOcI6149yk20aoiV099Ae9M5a8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "development",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "T:/Java Backend Projects/FoodDeliverySystem/resturantlisting-service/src/main/resources/templates",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;T:/Java Backend Projects/FoodDeliverySystem/foodcatalogue-service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="T:\Java Backend Projects\FoodDeliverySystem\foodcatalogue-service\src\main\resources" />
+      <recent name="T:\Java Backend Projects\FoodDeliverySystem\foodcatalogue-service\src\test\java\com\fooddelivery\foodcatalogue_service" />
+      <recent name="T:\Java Backend Projects\FoodDeliverySystem\restaurantlisting-service\src\main\java\com\fooddelivery\resturantlistingservice\config" />
       <recent name="T:\Java Backend Projects\FoodDeliverySystem\resturantlisting-service\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="T:\Java Backend Projects\FoodDeliverySystem\resturantlisting-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fooddelivery.foodcatalogue_service.vo" />
+      <recent name="com.fooddelivery.foodcatalogue_service.config" />
+      <recent name="com.fooddelivery.resturantlistingservice.vo" />
       <recent name="com.fooddelivery.resturantlistingservice.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.restaurantlisting-service">
+  <component name="RunManager" selected="Application.foodcatalogue-service">
     <configuration name="apigateway-service" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,6 +87,15 @@
       <option name="MAIN_CLASS_NAME" value="com.fooddelivery.apigatewayservice.ApigatewayServiceApplication" />
       <module name="apigateway-service" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apigateway-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="foodcatalogue-service" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.fooddelivery.foodcatalogue_service.FoodcatalogueServiceApplication" />
+      <module name="foodcatalogue-service" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +125,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.restaurantlisting-service" />
+      <item itemvalue="Application.foodcatalogue-service" />
       <item itemvalue="Application.apigateway-service" />
     </list>
   </component>
@@ -114,6 +140,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -126,6 +163,11 @@
           <url>file://$PROJECT_DIR$/restaurantlisting-service/src/main/java/com/fooddelivery/resturantlistingservice/config/ConsulConfig.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restaurantlisting-service/src/main/java/com/fooddelivery/resturantlistingservice/impl/RestaurantServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
